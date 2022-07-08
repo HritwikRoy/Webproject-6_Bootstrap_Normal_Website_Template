@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(70, 68, 68);
+}
+
+.wname {
+    background-color: rgb(241, 140, 7);
+}
+
+.wname a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.wname a:hover {
+    color: blue;
+}
+
+.heading {
+    background: rgb(231, 156, 156);
+}
+
+.heading ul li {
+    background: rgb(231, 156, 156);
+    display: inline-block;
+    padding: 6px;
+}
+
+.heading ul li a {
+    text-decoration-line: none;
+    color: black
+}
+
+.heading ul li:hover a {
+    color: rgb(255, 255, 255);
+}
+
+.bpart {
+    background: skyblue;
+}
+
+#li ul {
+    padding: 0;
+    list-style: none;
+}
+
+#li ul a {
+    text-decoration-line: none;
+    color: black;
+}
+
+#li ul li:hover a {
+    color: rgb(255, 255, 255);
+}
+
+img {
+    width: 100%;
+}
+
+.bar {
+    background: white;
+}
+
+.footer {
+    background: rgb(4, 11, 14);
+    color: white;
+    height: 10vh;
+    padding-top: 25px;
+    text-align: right;
+}
+#li img{
+    border-radius: 9px;
+}
